@@ -1,11 +1,12 @@
 "use client";
 
+import { forwardRef } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination, Autoplay } from "swiper/modules";
+import Image from "next/image";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
-import { forwardRef } from "react";
 
 const PopularDestinations = forwardRef((props, ref) => {
   const destinations = [
@@ -37,17 +38,39 @@ const PopularDestinations = forwardRef((props, ref) => {
         {destinations.map((dest) => (
           <SwiperSlide key={dest.name}>
             <div className="bg-white rounded-2xl shadow-md overflow-hidden">
-              <img src={dest.img} alt={dest.name} className="w-full h-48 object-cover" />
+              <div className="relative w-full h-48">
+                <Image
+                  src={dest.img}
+                  alt={dest.name}
+                  fill
+                  className="object-cover rounded-t-2xl"
+                  priority
+                />
+              </div>
               <div className="p-4">
-                <h3 className="text-xl text-yellow-500 font-semibold text-primary mb-2">{dest.name}</h3>
+                <h3 className="text-xl text-yellow-500 font-semibold mb-2">{dest.name}</h3>
                 <p className="text-gray-600">{dest.description}</p>
               </div>
             </div>
           </SwiperSlide>
         ))}
       </Swiper>
+
+      {/* Arrow color override */}
+      <style jsx global>{`
+        .swiper-button-next,
+        .swiper-button-prev {
+          color: #FBBF24 !important; /* Tailwind yellow-500 hex */
+        }
+        .swiper-button-next:hover,
+        .swiper-button-prev:hover {
+          color: #F59E0B !important; /* Tailwind yellow-600 hex */
+        }
+      `}</style>
     </section>
   );
 });
+
+PopularDestinations.displayName = "PopularDestinations";
 
 export default PopularDestinations;
