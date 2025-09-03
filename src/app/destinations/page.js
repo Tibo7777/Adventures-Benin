@@ -6,10 +6,11 @@ import Image from "next/image";
 
 export default function DestinationsPage() {
   const destinations = [
-    { name: "Ganvié", img: "/images/ganvie.jpg", description: "The famous floating village in Benin." },
-    { name: "Ouidah", img: "/images/ouidah.jpg", description: "Rich history and cultural heritage." },
-    { name: "Abomey", img: "/images/abomey.jpg", description: "Powerful legacy of Dahomey's Kingdom." },
-    { name: "Porto-Novo", img: "/images/porto-novo.jpg", description: "Traditional culture and city tours." },
+    { name: "Ganvié Village", img: "/images/ganvie.jpg", description: "Ganvié, called the \"Venice of Africa,\" is a remarkable stilt village in Benin.." },
+    { name: "Amazone Place", img: "/images/amazone.jpg", description: "Cotonou's statue honors the powerful and legendary Dahomey Amazons.." },
+    { name: "Ouidah Cultural Arena", img: "/images/ouidah.jpg", description: "The Ouidah  Arena is designed to host the annual Vodun Festival.." },
+    { name: "Abomey's Kingdom", img: "/images/abomey.jpg", description: "A powerful kingdom in modern-day Benin, known for its Amazon warriors.." },
+    { name: "International Vodun Museum", img: "/images/porto-novo.jpg", description: "It preserves, educates, and deconstructs stereotypes of our culture" },
     { name: "Pendjari National Park", img: "/images/pendjari.jpg", description: "Savannah wildlife and safari experiences." },
     { name: "Cotonou", img: "/images/cotonou.jpg", description: "Vibrant city life and markets." },
     { name: "Natitingou", img: "/images/natitingou.jpg", description: "Gateway to the Atakora mountains." },

@@ -1,5 +1,5 @@
 "use client";
-
+import Link from "next/link";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -152,9 +152,11 @@ export default function AboutPage() {
           <p className="mb-6 max-w-2xl mx-auto">
             Explore our tours or get in touch to craft your custom experience.
           </p>
+          <Link href="/destinations">
           <button className="px-6 py-3 bg-yellow-500 rounded-full font-semibold hover:opacity-90 transition">
-            Explore Tours
+            Explore Destinations
           </button>
+          </Link>
         </section>
 
       </main>

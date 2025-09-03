@@ -49,7 +49,6 @@ export default function BlogPage() {
 
           <div className="absolute inset-0 bg-black/30"></div>
           <div className="absolute inset-0 flex flex-col items-center justify-center px-4 text-center text-white">
-            <h1 className="text-3xl md:text-5xl font-bold mb-4">Our Blog</h1>
             <p className="text-sm md:text-lg max-w-2xl">
               Stories, tips, and guides to help you explore Benin like a local.
             </p>
@@ -73,9 +72,9 @@ export default function BlogPage() {
                   />
                 </div>
                 <div className="p-4 flex-1 flex flex-col justify-between">
-                  <h3 className="text-xl font-semibold text-[color:var(--color-primary)] mb-2 text-center md:text-left">
+                  <h2 className="text-xl font-semibold text-[color:var(--color-primary)] mb-2 text-center md:text-left">
                     {post.title}
-                  </h3>
+                  </h2>
                   <p className="text-gray-600 mb-4 text-center md:text-left">{post.excerpt}</p>
                   <a
                     href={`/blog/${post.slug}`}

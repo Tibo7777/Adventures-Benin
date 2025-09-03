@@ -39,7 +39,7 @@ export default function Footer() {
         <div>
           <h3 className="text-lg font-semibold text-white mb-3">Contact Us</h3>
           <ul className="space-y-2 text-sm">
-            <li>Email: <a href="mailto:info@adventuresbenin.bj" className="hover:text-white transition">info@adventuresbenin.bj</a></li>
+            <li>Email: <a href="mailto:info@adventures.bj" className="hover:text-white transition">info@adventures.bj</a></li>
             <li>Phone: <a href="tel:+2290154419781" className="hover:text-white transition">+229 0154419781</a></li>
             <li>Location: Cotonou, Benin</li>
           </ul>

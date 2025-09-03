@@ -54,10 +54,12 @@ body {
 }
 
 /* Headings */
-h2, h5 {
+h1, h2 {
   @apply font-bold text-[color:var(--color-primary)];
 }
-
+h3, h4 {
+  @apply font-bold text-yellow-500;
+}
 /*!* Links *!*/
 /*a {*/
 /*  @apply text-[color:var(--color-gray-600)] hover:underline*/
