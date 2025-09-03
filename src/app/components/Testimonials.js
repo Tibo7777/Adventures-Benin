@@ -9,7 +9,7 @@ export default function Testimonials() {
   const reviews = [
     { name: "Joni, Belgium", text: "I had the best experience exploring Ouidah with Benin Adventures!" },
     { name: "Marie, France", text: "Ganvié was magical, highly recommend their tours!" },
-    { name: "Alan, Morocco", text: "Pendjari safari exceeded all expectations. Excellent guides." },
+    { name: "Alan, Morocco", text: "Ouidah Arena tour exceeded all expectations. Excellent guides." },
     { name: "Sophie, Germany", text: "Amazing cultural experience in Abomey — unforgettable!" },
     { name: "Kofi, Ghana", text: "Porto-Novo city tour was very well organized and informative." },
   ];
