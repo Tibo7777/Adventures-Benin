@@ -61,9 +61,9 @@ export default function DestinationsPage() {
 
                 {/* Content */}
                 <div className="p-4 flex-1 flex flex-col justify-between">
-                  <h3 className="text-xl font-semibold text-[color:var(--color-primary)] mb-2 text-center md:text-left">
+                  <h2 className="text-xl font-semibold text-[color:var(--color-primary)] mb-2 text-center md:text-left">
                     {dest.name}
-                  </h3>
+                  </h2>
                   <p className="text-gray-600 text-sm line-clamp-3 md:line-clamp-none">
                     {dest.description}
                   </p>

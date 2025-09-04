@@ -1,10 +1,10 @@
-// src/utils/slugify.js
 export function slugify(text) {
   return text
     .toString()
+    .normalize("NFD")            // remove accents
+    .replace(/[\u0300-\u036f]/g, "")
     .toLowerCase()
     .trim()
-    .replace(/\s+/g, "-")        // Replace spaces with -
-    .replace(/[^\w\-]+/g, "")    // Remove all non-word chars
-    .replace(/\-\-+/g, "-");     // Replace multiple - with single -
+    .replace(/[^a-z0-9]+/g, "-") // replace spaces and special chars with dash
+    .replace(/^-+|-+$/g, "");    // remove leading/trailing dashes
 }
