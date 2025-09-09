@@ -18,14 +18,11 @@ const destinations = [
       img: "/images/ganvie-1.jpg",
       desc: "Boat rides on the lake, local markets, and traditional life.",
       sectionText: `
-Ganvié is a unique floating village on Lake Nokoué. Visitors can enjoy boat tours, 
-interact with locals, explore floating markets, and learn about Tofinu culture.
+Journey to Ganvie, Benin’s hidden gem and Africa’s largest floating village. This captivating destination is a living testament to a rich history, where the Tofinu people found sanctuary on Lake Nokoué and built a timeless community on the water. A visit here is an immersive experience: your canoe becomes your vehicle, the serene lake is the village's main road, and the daily rhythm of life—from fishing and trading to school and worship—unfolds around you. Ganvie is more than a sight to see; it is a chance to connect with an ancient culture and a community that has masterfully adapted to its aquatic world.
       `,
     },
     fullText: `
-Ganvié, located on Lake Nokoué, is often referred to as the "Venice of Africa." 
-This stilt village was founded in the 16th century by people fleeing the slave trade, 
-and today it remains a thriving community on water.
+Step into a world unlike any other at Ganvie, the "Venice of Africa." This extraordinary stilt village, built entirely on the tranquil waters of Lake Nokoué, offers a breathtaking glimpse into a unique way of life. Founded centuries ago as a refuge from slave traders, Ganvie has evolved into a thriving community where over 20,000 residents live in vibrant houses on stilts. Glide through the "streets" on a traditional pirogue, witness the bustling floating market, and discover the resilience and ingenuity of the "Water Men" who call this remarkable place home.
     `,
   },
   {
@@ -52,12 +49,47 @@ The "Monument Amazone" in Cotonou, Benin, is a striking 30-meter-tall bronze sta
       img: "/images/ouidah-1.jpeg",
       desc: "Attend traditional ceremonies and cultural events.",
       sectionText: `
-Ouidah Arena is the hub of Vodun culture. Visitors can witness ceremonies, 
-visit the Temple of Pythons, and explore the rich history of Benin's spiritual traditions.
+Vodun Days in Ouidah: A Celebration Like No Other
+
+Each year, the historic city of Ouidah transforms into the sacred Arena of Vodun, a space where tradition and devotion converge. This is where thousands gather for the annual Vodun Days festival, a breathtaking celebration of West Africa's most influential religion. The central square becomes a pulsating hub of activity, filled with the rhythms of ancient drumming, the spectacle of ceremonial dances, and the powerful energy of spiritual rituals. Experience the authentic soul of Benin in the very birthplace of Vodun.
       `,
     },
     fullText: `
-Ouidah is famous for its Vodun (Voodoo) traditions and cultural heritage.
+Experience the Heart of Ouidah's Culture
+
+Welcome to the Ouidah Arena, a modern cultural hub where history and tradition come to life. As the vibrant epicenter of Ouidah's rich heritage, our arena is the premier venue for major events, including the world-renowned Vodun Days festival. Designed to honor the city's spiritual roots, this space provides a stunning backdrop for ancient rituals, captivating performances, and grand ceremonies. Join us to witness the dynamic energy and profound spirituality that define Ouidah's unique identity.
+    `,
+  },
+      {
+    name: "Ouidah Door of no return",
+    img: "/images/ouidah-3.jpeg",
+    description:
+      "Experience a journey of historical significance at Ouidah's Door of No Return.",
+    section: {
+      img: "/images/ouidah-2.avif",
+      desc: "Boat rides on the lake, local markets, and traditional life.",
+      sectionText: `
+Experience a journey of historical significance at Ouidah's Door of No Return. This iconic monument concludes the "Slave Route," a path that stretches from the slave market to the Atlantic coast. The arch stands as a silent witness to the millions of people who were taken from their homes and forced to leave their continent forever. As you walk this hallowed ground, you are invited to reflect on the immense human cost of slavery and honor the memory of those who endured it. The Door of No Return is a powerful and necessary destination for anyone seeking to understand the global impact of this history.
+      `,
+    },
+    fullText: `
+Stand before the Door of No Return in Ouidah, a powerful and moving monument that marks the final point of departure for enslaved Africans. This archway, located at the end of the 4-kilometer "Slave Route," symbolizes the last view of their homeland for millions who were forced onto slave ships. More than just a structure, it is a place of profound memory and reflection—a poignant tribute to the resilience of the human spirit and a solemn reminder of a dark chapter in history. A visit here is an essential part of understanding the full story of the transatlantic slave trade and Ouidah's pivotal role within it.
+    `,
+  },
+          {
+    name: "Abomey's Kingdom",
+    img: "/images/ouidah-3.jpeg",
+    description:
+      "Experience a journey of historical significance at Ouidah's Door of No Return.",
+    section: {
+      img: "/images/ouidah-2.avif",
+      desc: "Boat rides on the lake, local markets, and traditional life.",
+      sectionText: `
+Experience a journey of historical significance at Ouidah's Door of No Return. This iconic monument concludes the "Slave Route," a path that stretches from the slave market to the Atlantic coast. The arch stands as a silent witness to the millions of people who were taken from their homes and forced to leave their continent forever. As you walk this hallowed ground, you are invited to reflect on the immense human cost of slavery and honor the memory of those who endured it. The Door of No Return is a powerful and necessary destination for anyone seeking to understand the global impact of this history.
+      `,
+    },
+    fullText: `
+Stand before the Door of No Return in Ouidah, a powerful and moving monument that marks the final point of departure for enslaved Africans. This archway, located at the end of the 4-kilometer "Slave Route," symbolizes the last view of their homeland for millions who were forced onto slave ships. More than just a structure, it is a place of profound memory and reflection—a poignant tribute to the resilience of the human spirit and a solemn reminder of a dark chapter in history. A visit here is an essential part of understanding the full story of the transatlantic slave trade and Ouidah's pivotal role within it.
     `,
   },
 ];

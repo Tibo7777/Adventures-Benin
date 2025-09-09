@@ -12,7 +12,7 @@ export default function DestinationsPage() {
     { name: "Ouidah Cultural Arena", slug: "ouidah-cultural-arena", img: "/images/ouidah.jpg", description: "The Ouidah Arena is designed to host the annual Vodun Festival.." },
     { name: "Abomey's Kingdom", slug: "abomeys-kingdom", img: "/images/abomey.jpg", description: "A powerful kingdom in modern-day Benin, known for its Amazon warriors.." },
     { name: "International Vodun Museum", slug: "vodun-museum", img: "/images/porto-novo.jpg", description: "It preserves, educates, and deconstructs stereotypes of our culture" },
-    { name: "Pendjari National Park", slug: "pendjari", img: "/images/pendjari.jpg", description: "Savannah wildlife and safari experiences." },
+    { name: "Ouidah Door of no return", slug: "ouidah-door-of-no-return", img: "/images/ouidah-2.avif", description: "Experience a journey of historical significance at Ouidah's Door of No Return.." },
     { name: "Cotonou", slug: "cotonou", img: "/images/cotonou.jpg", description: "Vibrant city life and markets." },
     { name: "Natitingou", slug: "natitingou", img: "/images/natitingou.jpg", description: "Gateway to the Atakora mountains." },
   ];
